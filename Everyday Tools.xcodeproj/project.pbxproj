@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1C7C6FF4E8FFF1CD4EC4D4 /* Pods_Everyday_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9891031E971C3F0CDA2D6BE /* Pods_Everyday_Tools.framework */; };
 		C79884C12C88183D00F87A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884C02C88183D00F87A0B /* AppDelegate.swift */; };
 		C79884C32C88183D00F87A0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884C22C88183D00F87A0B /* SceneDelegate.swift */; };
-		C79884C52C88183D00F87A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884C42C88183D00F87A0B /* ViewController.swift */; };
 		C79884C82C88183D00F87A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79884C62C88183D00F87A0B /* Main.storyboard */; };
 		C79884CA2C88183F00F87A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79884C92C88183F00F87A0B /* Assets.xcassets */; };
 		C79884CD2C88183F00F87A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79884CB2C88183F00F87A0B /* LaunchScreen.storyboard */; };
+		C79884D82C8835B200F87A0B /* WeatherSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884D72C8835B200F87A0B /* WeatherSmallView.swift */; };
+		C79884DA2C88403D00F87A0B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884D92C88403D00F87A0B /* Weather.swift */; };
+		C79884DD2C88411500F87A0B /* CallApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884DC2C88411500F87A0B /* CallApi.swift */; };
+		C79884DF2C88466100F87A0B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884DE2C88466100F87A0B /* StartView.swift */; };
+		C79884E12C8849AC00F87A0B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884E02C8849AC00F87A0B /* StartViewController.swift */; };
+		C79884E32C884A0A00F87A0B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79884E22C884A0A00F87A0B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9891031E971C3F0CDA2D6BE /* Pods_Everyday_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Everyday_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A2846FA170EABC5ECC52D0 /* Pods-Everyday Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everyday Tools.release.xcconfig"; path = "Target Support Files/Pods-Everyday Tools/Pods-Everyday Tools.release.xcconfig"; sourceTree = "<group>"; };
+		C47E9C06BD8199F4C596AAD5 /* Pods-Everyday Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everyday Tools.debug.xcconfig"; path = "Target Support Files/Pods-Everyday Tools/Pods-Everyday Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		C79884BD2C88183D00F87A0B /* Everyday Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everyday Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79884C02C88183D00F87A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79884C22C88183D00F87A0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C79884C42C88183D00F87A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C79884C72C88183D00F87A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C79884C92C88183F00F87A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79884CC2C88183F00F87A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C79884CE2C88183F00F87A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79884D72C8835B200F87A0B /* WeatherSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSmallView.swift; sourceTree = "<group>"; };
+		C79884D92C88403D00F87A0B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C79884DC2C88411500F87A0B /* CallApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallApi.swift; sourceTree = "<group>"; };
+		C79884DE2C88466100F87A0B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		C79884E02C8849AC00F87A0B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C79884E22C884A0A00F87A0B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1C7C6FF4E8FFF1CD4EC4D4 /* Pods_Everyday_Tools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59FDB835FCFDD0A6D27CB56B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9891031E971C3F0CDA2D6BE /* Pods_Everyday_Tools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E852917A6EE76988C129C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C47E9C06BD8199F4C596AAD5 /* Pods-Everyday Tools.debug.xcconfig */,
+				C2A2846FA170EABC5ECC52D0 /* Pods-Everyday Tools.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C79884B42C88183D00F87A0B = {
 			isa = PBXGroup;
 			children = (
 				C79884BF2C88183D00F87A0B /* Everyday Tools */,
 				C79884BE2C88183D00F87A0B /* Products */,
+				9E852917A6EE76988C129C93 /* Pods */,
+				59FDB835FCFDD0A6D27CB56B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,52 @@
 		C79884BF2C88183D00F87A0B /* Everyday Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C79884DB2C8840EC00F87A0B /* Networking */,
+				C79884D62C88191600F87A0B /* Models */,
+				C79884D52C88190E00F87A0B /* Controllers */,
+				C79884D42C88190800F87A0B /* Views */,
 				C79884C02C88183D00F87A0B /* AppDelegate.swift */,
 				C79884C22C88183D00F87A0B /* SceneDelegate.swift */,
-				C79884C42C88183D00F87A0B /* ViewController.swift */,
 				C79884C62C88183D00F87A0B /* Main.storyboard */,
 				C79884C92C88183F00F87A0B /* Assets.xcassets */,
 				C79884CB2C88183F00F87A0B /* LaunchScreen.storyboard */,
 				C79884CE2C88183F00F87A0B /* Info.plist */,
 			);
 			path = "Everyday Tools";
+			sourceTree = "<group>";
+		};
+		C79884D42C88190800F87A0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C79884D72C8835B200F87A0B /* WeatherSmallView.swift */,
+				C79884DE2C88466100F87A0B /* StartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C79884D52C88190E00F87A0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C79884E02C8849AC00F87A0B /* StartViewController.swift */,
+				C79884E22C884A0A00F87A0B /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C79884D62C88191600F87A0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C79884D92C88403D00F87A0B /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C79884DB2C8840EC00F87A0B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C79884DC2C88411500F87A0B /* CallApi.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79884D12C88183F00F87A0B /* Build configuration list for PBXNativeTarget "Everyday Tools" */;
 			buildPhases = (
+				48F83CA68DC2ED1CBF9F213D /* [CP] Check Pods Manifest.lock */,
 				C79884B92C88183D00F87A0B /* Sources */,
 				C79884BA2C88183D00F87A0B /* Frameworks */,
 				C79884BB2C88183D00F87A0B /* Resources */,
+				1B3969E139CECD51A9B65F58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +206,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B3969E139CECD51A9B65F58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Everyday Tools/Pods-Everyday Tools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Everyday Tools/Pods-Everyday Tools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Everyday Tools/Pods-Everyday Tools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F83CA68DC2ED1CBF9F213D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Everyday Tools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C79884B92C88183D00F87A0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79884C52C88183D00F87A0B /* ViewController.swift in Sources */,
+				C79884DA2C88403D00F87A0B /* Weather.swift in Sources */,
+				C79884E12C8849AC00F87A0B /* StartViewController.swift in Sources */,
+				C79884D82C8835B200F87A0B /* WeatherSmallView.swift in Sources */,
 				C79884C12C88183D00F87A0B /* AppDelegate.swift in Sources */,
+				C79884DD2C88411500F87A0B /* CallApi.swift in Sources */,
 				C79884C32C88183D00F87A0B /* SceneDelegate.swift in Sources */,
+				C79884DF2C88466100F87A0B /* StartView.swift in Sources */,
+				C79884E32C884A0A00F87A0B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,19 +407,24 @@
 		};
 		C79884D22C88183F00F87A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47E9C06BD8199F4C596AAD5 /* Pods-Everyday Tools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4Z8N38XAXL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Everyday Tools/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Everyday Tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,19 +440,24 @@
 		};
 		C79884D32C88183F00F87A0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A2846FA170EABC5ECC52D0 /* Pods-Everyday Tools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4Z8N38XAXL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Everyday Tools/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Everyday Tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

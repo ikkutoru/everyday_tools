@@ -1,0 +1,6 @@
+framework module Pods_Everyday_Tools {
+  umbrella header "Pods-Everyday Tools-umbrella.h"
+
+  export *
+  module * { export * }
+}
